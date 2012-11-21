@@ -1,9 +1,9 @@
 # Resource configuration
 resource.name=Cohort Member
 node.root=$.results
-resource.object=com.mclinic.android.api.model.Patient
-algorithm.class=com.mclinic.android.api.model.algorithm.CohortMemberAlgorithm
-resolver.class=com.mclinic.android.api.model.resolver.CohortMemberResolver
+resource.object=com.mclinic.api.model.Patient
+algorithm.class=com.mclinic.api.model.algorithm.CohortMemberAlgorithm
+resolver.class=com.mclinic.api.model.resolver.CohortMemberResolver
 field.unique=uuid
 # Mapping
 uuid=$.patient.uuid
