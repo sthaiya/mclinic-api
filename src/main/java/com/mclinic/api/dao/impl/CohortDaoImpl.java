@@ -14,7 +14,7 @@ import com.mclinic.util.Constants;
 public class CohortDaoImpl implements CohortDao {
 	
 	@Inject
-	private static RestAssuredService service; 
+	private RestAssuredService service; 
 	
 	@Inject
 	private Logger log;
